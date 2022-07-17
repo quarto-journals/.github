@@ -4,7 +4,6 @@ The `quarto-journals` organization collects journal templates. Use a journal tem
 
 `quarto use template quarto-journals/<template-name>`
 
-Learn more about creating your own journal templates here: <https://quarto.org/docs/journals/>
 
 | Journal / Publisher                 | Name                                                                          | Install                                                    |
 |:-----------------------------|:----------------------|:------------------|
@@ -16,3 +15,12 @@ Learn more about creating your own journal templates here: <https://quarto.org/d
 | Journal of Statistical Software     | [jss](https://github.com/quarto-journals/jss)                                 | `quarto use template quarto-journals/jss`                  |
 | Public Library of Science (PLOS)    | [plos](https://github.com/quarto-journals/plos)                               | `quarto use template quarto-journals/plos`                 |
 | Springer                            | [springer](https://github.com/quarto-journals/springer)                       | `quarto use template quarto-journals/springer`             |
+
+### Creating a Template
+
+Learn more about creating your own journal templates here: <https://quarto.org/docs/journals/>
+
+An easy way to start is to use the quarto-journals Github repo template at <https://github.com/quarto-journals/article-format-template>. 
+
+
+
