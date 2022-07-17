@@ -1,7 +1,3 @@
----
-title: "Untitled"
----
-
 # Quarto Journal Templates
 
 The `quarto-journals` organization collects journal templates. Use a journal template for a Quarto document using the command:
