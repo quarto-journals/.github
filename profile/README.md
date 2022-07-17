@@ -1,6 +1,8 @@
 # Quarto Journal Templates
 
-The `quarto-journals` organization collects journal templates. Use a journal template for a Quarto document using the command:
+The `quarto-journals` organization collects a curated set of journal templates for Quarto. 
+
+Use a journal template using the command:
 
 `quarto use template quarto-journals/<template-name>`
 
