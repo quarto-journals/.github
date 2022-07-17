@@ -9,7 +9,6 @@ The `quarto-journals` organization collects journal templates. Use a journal tem
 |:-----------------------------|:----------------------|:------------------|
 | Association for Computing Machinery | [acm](https://github.com/quarto-journals/acm)                                 | `quarto use template quarto-ext/acm`                       |
 | American Chemical Society           | [acs](https://github.com/quarto-journals/acs)                                 | `quarto use template quarto-journals/acs`                  |
-| Austrian Journal of Statistics      | [ajs](https://github.com/quarto-journals/ajs)                                 | `quarto use template quarto-journals/ajs`                  |
 | Biophysical Journal                 | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) | `quarto use template  quarto-journals/biophysical-journal` |
 | Elsevier                            | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto use template quarto-journals/elsevier`             |
 | Journal of Statistical Software     | [jss](https://github.com/quarto-journals/jss)                                 | `quarto use template quarto-journals/jss`                  |
