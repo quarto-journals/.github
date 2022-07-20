@@ -30,11 +30,11 @@ jobs:
           dependencies: NA
           packages: |
             any::sessioninfo
+            rmarkdown
             gh
             purrr
             dplyr
             glue
-            knitr
 
       - name: Render with Quarto
         uses: quarto-dev/quarto-actions/render@v2
