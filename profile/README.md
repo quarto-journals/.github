@@ -9,6 +9,7 @@ Use a journal template using the command:
 
 | Journal / Publisher                 | Name                                                                          | Install                                                    |
 |:-----------------------------|:----------------------|:------------------|
+| Association for Computing Machinery           | [acm](https://github.com/quarto-journals/acm)                                 | `quarto use template quarto-journals/ac`                  |
 | American Chemical Society           | [acs](https://github.com/quarto-journals/acs)                                 | `quarto use template quarto-journals/acs`                  |
 | Biophysical Journal                 | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) | `quarto use template  quarto-journals/biophysical-journal` |
 | Elsevier                            | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto use template quarto-journals/elsevier`             |
