@@ -3,7 +3,7 @@
 
 The `quarto-journals` organization collects a curated set of journal templates for Quarto.
 
-Use a journal template using the command:
+Use a journal template with the command:
 
 `quarto use template quarto-journals/<template-name>`
 
