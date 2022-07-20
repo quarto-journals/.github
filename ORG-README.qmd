@@ -1,0 +1,58 @@
+---
+output-file: profile/README.md
+format: gfm
+wrap: preserve
+execute: 
+  echo: false
+  warning: false
+---
+
+# Quarto Journal Templates
+
+The `quarto-journals` organization collects a curated set of journal templates for Quarto. 
+
+Use a journal template using the command:
+
+`quarto use template quarto-journals/<template-name>`
+
+```{r}
+#| message: false
+
+library(gh)
+library(purrr)
+library(dplyr)
+
+res <- gh::gh("/orgs/{org}/repos", org = "quarto-journals") 
+
+tab <- res |> 
+    # remove non extension
+    discard(~ .x$name %in% c(".github", "article-format-template")) |>
+    # remove private
+    discard(~ .x$private) |>
+    map_df(~ tibble::tibble(
+        name = .x$name,
+        full_name = .x$full_name,
+        description = .x$description,
+        license = .x$license$name,
+        url = .x$html_url
+    )) |>
+    mutate(
+        journal = gsub("^Quarto template for (?:the )?(.*)\\s?(?:journals?)?", "\\1", description)
+    )
+
+tab_formatted <- tab |>
+    arrange(name) |>
+    transmute(
+        'Journal / Publisher ' = journal,
+        'Name' = glue::glue("[{name}]({url})"),
+        'Install' = glue::glue("`quarto template template {full_name}`")
+    )
+
+knitr::kable(tab_formatted)
+```
+
+### Creating a Template
+
+Learn more about creating your own journal templates here: <https://quarto.org/docs/journals/>
+
+An easy way to start is to use the quarto-journals Github repo template at <https://github.com/quarto-journals/article-format-template>. 
