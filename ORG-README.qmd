@@ -35,9 +35,10 @@ tab <- res |>
         description = .x$description,
         license = .x$license$name,
         url = .x$html_url
-    )) |>
-    mutate(
-        journal = gsub("^Quarto template for (?:the )?(.*)\\s?(?:journals?)?", "\\1", description)
+    )) 
+    
+tab <- tab |> mutate(
+        journal = gsub("^Quarto template for (?:the )?(.*)$", "\\1", description, perl = TRUE)
     )
 
 tab_formatted <- tab |>
