@@ -12,7 +12,7 @@ Use a journal template with the command:
 | Association of Computing Machinery | [acm](https://github.com/quarto-journals/acm)                                 | `quarto template template quarto-journals/acm`                 |
 | American Chemical Society          | [acs](https://github.com/quarto-journals/acs)                                 | `quarto template template quarto-journals/acs`                 |
 | Biophysical journal                | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) | `quarto template template quarto-journals/biophysical-journal` |
-| Elsevier journals                  | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto template template quarto-journals/elsevier`            |
+| Elsevier Journals                  | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto template template quarto-journals/elsevier`            |
 | Journal of Statistical Software    | [jss](https://github.com/quarto-journals/jss)                                 | `quarto template template quarto-journals/jss`                 |
 | Public Library of Science          | [plos](https://github.com/quarto-journals/plos)                               | `quarto template template quarto-journals/plos`                |
 
