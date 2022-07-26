@@ -7,15 +7,15 @@ Use a journal template with the command:
 
 `quarto use template quarto-journals/<template-name>`
 
-| Journal / Publisher                       | Name                                                                          | Install                                                        |
-|:------------------------------------------|:------------------------------------------------------------------------------|:---------------------------------------------------------------|
-| Association of Computing Machinery        | [acm](https://github.com/quarto-journals/acm)                                 | `quarto template template quarto-journals/acm`                 |
-| American Chemical Society                 | [acs](https://github.com/quarto-journals/acs)                                 | `quarto template template quarto-journals/acs`                 |
-| Biophysical journal                       | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) | `quarto template template quarto-journals/biophysical-journal` |
-| Elsevier Journals                         | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto template template quarto-journals/elsevier`            |
-| American Statistical Association Journals | [jasa](https://github.com/quarto-journals/jasa)                               | `quarto template template quarto-journals/jasa`                |
-| Journal of Statistical Software           | [jss](https://github.com/quarto-journals/jss)                                 | `quarto template template quarto-journals/jss`                 |
-| Public Library of Science                 | [plos](https://github.com/quarto-journals/plos)                               | `quarto template template quarto-journals/plos`                |
+| Journal / Publisher                       | Name                                                                          | Install                                                   |
+|:------------------------------------------|:------------------------------------------------------------------------------|:----------------------------------------------------------|
+| Association of Computing Machinery        | [acm](https://github.com/quarto-journals/acm)                                 | `quarto use template quarto-journals/acm`                 |
+| American Chemical Society                 | [acs](https://github.com/quarto-journals/acs)                                 | `quarto use template quarto-journals/acs`                 |
+| Biophysical journal                       | [biophysical-journal](https://github.com/quarto-journals/biophysical-journal) | `quarto use template quarto-journals/biophysical-journal` |
+| Elsevier Journals                         | [elsevier](https://github.com/quarto-journals/elsevier)                       | `quarto use template quarto-journals/elsevier`            |
+| American Statistical Association Journals | [jasa](https://github.com/quarto-journals/jasa)                               | `quarto use template quarto-journals/jasa`                |
+| Journal of Statistical Software           | [jss](https://github.com/quarto-journals/jss)                                 | `quarto use template quarto-journals/jss`                 |
+| Public Library of Science                 | [plos](https://github.com/quarto-journals/plos)                               | `quarto use template quarto-journals/plos`                |
 
 ### Creating a Template
 
