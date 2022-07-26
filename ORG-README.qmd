@@ -46,7 +46,7 @@ tab_formatted <- tab |>
     transmute(
         'Journal / Publisher ' = journal,
         'Name' = glue::glue("[{name}]({url})"),
-        'Install' = glue::glue("`quarto template template {full_name}`")
+        'Install' = glue::glue("`quarto use template {full_name}`")
     )
 
 knitr::kable(tab_formatted)
