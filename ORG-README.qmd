@@ -54,7 +54,7 @@ knitr::kable(tab_formatted)
 
 ### Using a Template
 
-These templates require features in Quarto 1.2, so you will currently need [pre-release versions of Quarto](https://github.com/quarto-dev/quarto-cli/releases).
+These templates require features in Quarto 1.2, so you will currently need [pre-release versions of Quarto](https://quarto.org/docs/download/prerelease.html).
 
 ### Creating a Template
 
