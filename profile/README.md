@@ -17,6 +17,10 @@ Use a journal template with the command:
 | Journal of Statistical Software           | [jss](https://github.com/quarto-journals/jss)                                 | `quarto use template quarto-journals/jss`                 |
 | Public Library of Science                 | [plos](https://github.com/quarto-journals/plos)                               | `quarto use template quarto-journals/plos`                |
 
+### Using a Template
+
+These templates require features in Quarto 1.2, so you will currently need [pre-release versions of Quarto](https://quarto.org/docs/download/prerelease.html).
+
 ### Creating a Template
 
 Learn more about creating your own journal templates here: <https://quarto.org/docs/journals/>
