@@ -16,7 +16,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -39,7 +39,7 @@ jobs:
             glue
 
       - name: Render with Quarto
-        uses: quarto-dev/quarto-actions/render@v2
+        uses: quarto-dev/quarto-actions/render@main
         with:
           path: ORG-README.qmd
       
