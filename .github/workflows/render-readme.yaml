@@ -39,9 +39,12 @@ jobs:
             glue
 
       - name: Render with Quarto
-        uses: quarto-dev/quarto-actions/render@main
+        uses: quarto-dev/quarto-actions/render@v2
         with:
           path: ORG-README.qmd
+      
+      - name: Move and Rename to README.md
+        run: mv ORG-README.md profile/README.md
       
       - name: Commit Results
         run: |

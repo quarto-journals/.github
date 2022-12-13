@@ -1,5 +1,4 @@
 ---
-output-file: profile/README.md
 format: gfm
 wrap: preserve
 execute: 
