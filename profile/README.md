@@ -19,7 +19,7 @@ Use a journal template with the command:
 
 ### Using a Template
 
-These templates require features in Quarto 1.2, so you will currently need [pre-release versions of Quarto](https://quarto.org/docs/download/prerelease.html).
+These templates require features in Quarto 1.2 or later.
 
 ### Creating a Template
 
